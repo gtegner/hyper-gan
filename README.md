@@ -22,10 +22,10 @@ pip install -r requirements.txt
 
 
 ### References
-[1]: <https://arxiv.org/pdf/1609.09106.pdf> HyperNetworks
+[1] https://arxiv.org/pdf/1609.09106.pdf
 
-[2]: <https://arxiv.org/abs/1506.02142> Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning
+[2] https://arxiv.org/abs/1506.02142
 
-[3]: <https://arxiv.org/abs/1801.04062> "MINE: Mutual Information Neural Estimation"
+[3] https://arxiv.org/abs/1801.04062
 
-[4]: <www.github.com/gtegner/mine-pytorch> Mutual Information estimator based on MINE
+[4] www.github.com/gtegner/mine-pytorch
