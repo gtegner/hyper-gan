@@ -8,10 +8,10 @@ We this train a generative network by generating the weights of a main network w
 
 Ensemble methods are as most powerful when the models used are as diverse and performant as possible. To ensure diversity between our models, we employ another trick from GAN literature. We add a measure of mutual information between the generated output and noisy samples used as input. By ensuring that the mutual information is high, we see a larger diversity of the generated networks, and with it higher and more robust performance on our toy dataset. 
 
-[Full write up available here](https://gtegner.github.io/https://gtegner.github.io/uncertainty/estimation/2020/01/06/hyper-gan.html)
+Full write up available: https://gtegner.github.io/uncertainty/estimation/2020/01/06/hyper-gan.html
 
 ### Setup
-Dependent on my implementation of [MINE](www.github.com/gtegner/mine-pytorch) for mutual information estimation.
+Dependent on my implementation of Mutual Information Neural Estimation [3][4] for mutual information estimation.
 
 ```
 pip install -r requirements.txt
@@ -20,4 +20,9 @@ pip install -r requirements.txt
 
 ### References
 [1]: <https://arxiv.org/pdf/1609.09106.pdf> HyperNetworks
+
 [2]: <https://arxiv.org/abs/1506.02142> Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning
+
+[3]: <https://arxiv.org/abs/1801.04062> "MINE: Mutual Information Neural Estimation"
+
+[4]: <www.github.com/gtegner/mine-pytorch> Mutual Information estimator based on MINE
