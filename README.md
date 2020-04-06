@@ -1,4 +1,4 @@
-## Uncertainty Estimation through HyperNetworks
+# Uncertainty Estimation through HyperNetworks
 
 This project stems from a small idea I got of finding a generative neural network which generates other networks. Turns out they're called HyperNetworks [1] and have found multiple use cases in different areas of Machine Learning. Something I thought they would be particularly good at would be _Uncertainty Estimation_, that is learning to estimate the epistemic uncertainty of a model. A first step in a bayesian approach to uncertainty estimation would be to estimate a distribution over the model parameters and inferring the posterior. Finding this distribution is hard since Neural Networks may contain thousands of parameters. Previpous approaches have used approximations such as Variational Inference or even Dropout [2] to estimate this posterior. 
 
