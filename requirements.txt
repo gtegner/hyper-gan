@@ -1,6 +1,6 @@
 -e git://github.com/gtegner/mine-pytorch#egg=mine
 tqdm==4.31.1
-setuptools==40.8.0
+setuptools==65.5.1
 pandas==0.24.2
 scipy==1.2.1
 matplotlib==3.0.3
